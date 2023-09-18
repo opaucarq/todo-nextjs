@@ -1,12 +1,12 @@
 {
-  "tasks":[
+  "tasks": [
     {
-      "id": "1",
-      "text": "buy mill with some orange"
+      "id": "002f0ad0-2cc7-4ae6-b4f6-5bce508e7f8e",
+      "text": "Task 1"
     },
     {
-      "id": "2",
-      "text": "help my friend to find a girl"
+      "id": "ce36cd64-869d-44bd-b632-638283b949ac",
+      "text": "Task 2"
     }
   ]
 }
