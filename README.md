@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo List App
+
+This is a simple Todo List application built using Next.js, Tailwind CSS, React Icons, Daisy UI, and JSON Server. You can use this app to add, update, and delete tasks.
+
+![Todo List App Screenshot](screenshot.png)
+
+## Features
+
+- Add tasks: You can add new tasks to your todo list.
+- Update tasks: You can mark tasks as completed or update their descriptions.
+- Delete tasks: You can remove tasks from your todo list.
+- Responsive design: The app is designed to work on both desktop and mobile devices.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/): A React framework for building server-rendered applications.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom designs.
+- [React Icons](https://react-icons.github.io/react-icons/): A library of popular icons for React applications.
+- [Daisy UI](https://daisyui.com/): A library of accessible and reusable UI components for Vue.js and React.
+- [JSON Server](https://github.com/typicode/json-server): A fake REST API for prototyping and mocking.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository to your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+   ```bash
+   git clone https://github.com/your-username/todo-list-app.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   ```bash
+   cd todo-list-app
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Start the JSON Server to simulate a backend:
 
-## Learn More
+   ```bash
+   npm run json-server
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your browser and navigate to http://localhost:3000 to use the Todo List app.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To add a new task, click the "Add Task" button and enter the task description.
+To update a task, click the edit icon (pencil) next to the task and make your changes.
+To delete a task, click the delete icon (trash can) next to the task.
